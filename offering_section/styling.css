@@ -1,0 +1,537 @@
+.pricing-table {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .pricing-table .div {
+    background-color: #f3f3f3;
+    width: 1440px;
+    height: 981px;
+    position: relative;
+  }
+  
+  .pricing-table .price {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    height: 770px;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 32px 16px;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 4px 32px #00000012;
+  }
+  
+  .pricing-table .price-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .pricing-table .div-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .pricing-table .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pricing-table .price-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .pricing-table .price-base {
+    position: relative;
+    width: 181px;
+    height: 48px;
+    margin-right: -2px;
+  }
+  
+  .pricing-table .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    font-size: 40px;
+    white-space: nowrap;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pricing-table .element-incl-vat {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pricing-table .span {
+    color: #000000;
+  }
+  
+  .pricing-table .text-wrapper-3 {
+    color: #adadad;
+  }
+  
+  .pricing-table .line {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .pricing-table .p {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pricing-table .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 3px;
+    border: 2px solid;
+    border-color: #000000;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .pricing-table .text-wrapper-4 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -2px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pricing-table .features {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .pricing-table .text-wrapper-5 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pricing-table .feature-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .pricing-table .icons-actions-ic {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .pricing-table .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pricing-table .frame {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .pricing-table .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pricing-table .div-wrapper {
+    height: 16px;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 6px;
+    background-color: #676767;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .pricing-table .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -9px;
+    margin-bottom: -7px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 12px;
+    white-space: nowrap;
+  }
+  
+  .pricing-table .price-3 {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    height: 770px;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 32px 16px;
+    position: absolute;
+    top: 120px;
+    left: 560px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 2px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 32px #00000012;
+  }
+  
+  .pricing-table .frame-2 {
+    gap: 5px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .pricing-table .frame-3 {
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 16px;
+    background-color: #1e1e1e;
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .pricing-table .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pricing-table .price-base-2 {
+    width: 182px;
+    position: relative;
+    height: 48px;
+    margin-right: -2px;
+  }
+  
+  .pricing-table .img {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 2px;
+  }
+  
+  .pricing-table .button-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #000000;
+    border-radius: 3px;
+    border: 2px solid;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .pricing-table .text-wrapper-10 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -2px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pricing-table .price-4 {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    height: 770px;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 32px 16px;
+    position: absolute;
+    top: 120px;
+    left: 1023px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 2px solid;
+    box-shadow: 0px 4px 32px #00000012;
+  }
+  
+  .pricing-table .price-base-3 {
+    width: 179px;
+    position: relative;
+    height: 48px;
+    margin-right: -2px;
+  }
+  
+  .pricing-table .vector {
+    position: absolute;
+    width: 349px;
+    height: 2px;
+    top: 36px;
+    left: 547px;
+  }
+  
+  .CTA {
+    display: flex;
+    height: 319px;
+    align-items: center;
+    gap: 144px;
+    padding: 0px 60px;
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    min-width: 1440px;
+  }
+  
+  .CTA .best-offer {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    position: relative;
+    width: 315px;
+    margin-left: 10px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 48px;
+    letter-spacing: 0px;
+    line-height: 52.8px;
+  }
+  
+  
+  .CTA .text-wrapper {
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 48px;
+    letter-spacing: -1.44px;
+    line-height: 52.8px;
+  }
+  
+  .CTA .span {
+    color: #111010;
+  }
+  
+  .CTA .line {
+    position: relative;
+    width: 1px;
+    height: 319px;
+  }
+  
+  .CTA .frame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 46px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .CTA .div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .CTA .p {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Oswald-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #111010;
+    font-size: 48px;
+    letter-spacing: -1.44px;
+    line-height: 52.8px;
+  }
+  
+  .CTA .everything-has-been {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #00000099;
+    font-size: 18px;
+    letter-spacing: -0.54px;
+    line-height: 25.2px;
+  }
+  
+  .CTA .frame-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .CTA .frame-3 {
+    display: flex;
+    width: 434px;
+    align-items: flex-end;
+    gap: 7px;
+    padding: 16px 280px 16px 16px;
+    position: relative;
+    background-color: #1110100a;
+  }
+  
+  .CTA .mail {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .CTA .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-right: -65px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #757575;
+    font-size: 16px;
+    letter-spacing: -0.48px;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  
+  .CTA .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 32px;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+    background-color: #111010;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .CTA .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: -0.48px;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  
